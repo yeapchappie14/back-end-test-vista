@@ -2,7 +2,7 @@
 
 A tiny REST API for managing **Companies** and their **Services**.
 
-## ✨ Features
+## Features
 - Node.js + Express + TypeScript
 - Prisma ORM (MySQL)
 - DTOs + validation (`express-validator`)
@@ -15,7 +15,7 @@ A tiny REST API for managing **Companies** and their **Services**.
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 - Node 18+
 - TypeScript
 - Express
@@ -24,14 +24,14 @@ A tiny REST API for managing **Companies** and their **Services**.
 
 ---
 
-## ✅ Requirements
+## Requirements
 - **MySQL 8** running on `localhost:3306`
 - **Node 18+** (`node -v`)
 - (Windows PowerShell is fine)
 
 ---
 
-## 🚀 Quick Start (Windows)
+## Quick Start (Windows)
 
 ```powershell
 # 1) Clone
