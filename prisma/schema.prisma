@@ -1,0 +1,24 @@
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Company {
+  id                 Int       @id @default(autoincrement())
+  name               String
+  registrationNumber String
+  services           Service[]
+}
+
+model Service {
+  id          Int     @id @default(autoincrement())
+  name        String
+  description String
+  price       Float
+  companyId   Int
+  company     Company @relation(fields: [companyId], references: [id])
+}
